@@ -1,0 +1,95 @@
+body header{
+  background-color: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+body header nav {
+  width: 960px;
+  margin: auto;
+}
+body header img {
+  display: flex;
+  width: 200px;
+}
+body nav ul{
+  display: flex;
+  width: 200px;
+}
+body nav ul li {
+  justify-content: center;
+  margin-top: 15px;
+  height: 70px;
+  width:180px;
+  }
+body nav ul li a{
+  text-decoration: none;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 180px;
+  justify-content: center;
+}
+
+body main div:first-child{
+  width: 960px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 30px;;
+}
+
+body main article div {
+  margin-top: 30px;
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+}
+
+section{
+  display: flex;
+  margin: auto;
+  width: 960px;
+  margin-bottom: 30px;
+}
+
+body section div{
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 30px);
+  padding-left: 30px;
+}
+h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+body section div p{
+  margin-top: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 300px;
+  font-style: italic;
+  line-height: 1.5em;
+}
+
+body section div div{
+  background-color: #000;
+  color: #ddd;
+  width: max-content;
+  justify-content: left;
+  transition: 350ms;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+body section div div:hover{
+  background-color: aqua;
+  color:black;
+}
+
+footer{
+  height: 150px;
+  background-color: #444;
+}
